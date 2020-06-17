@@ -1,0 +1,252 @@
+@media (max-width: 1250px) {
+	.container {
+		width: 850px;
+	}
+	.header-menu .item {
+		width: 123px;
+		padding: 10px 0px;
+	}
+	.header-menu .item + .item {
+		margin-left: 5px;
+	}
+	.header-menu .item a {
+		display: inline-block;
+		text-align: center;
+		width: 123px;
+	}
+	h1 {
+		font-size: 20px;
+		letter-spacing: 1px;
+		margin: 136px 125px 0px;
+		text-align: center;
+	}
+	h1 span {
+		font-size: 26px;
+	    letter-spacing: 1px;
+	    margin: 24px 125px;
+	}
+	.service {
+		width: 600px;
+	}
+	.service-leftside {
+		width: 600px;
+	}
+	.service-bottomside {
+		width: 600px;
+	}
+	.service img {
+		width: 600px;
+	}
+	.sidebar {
+		width: 300px;
+	}
+	.sidebar ul {
+		width: 300px;
+	}
+}
+
+/*----------------------------------------*/
+
+@media (max-width: 900px) {
+	.container {
+		width: 700px;
+	}
+	.header-menu .item {
+		width: 106px;
+	}
+	.header-menu .item a {
+		width: 106px;
+		letter-spacing: 1px;
+	}
+	h1 {
+		font-size: 20px;
+		letter-spacing: 1px;
+		margin: 136px 75px 0px;
+	}
+	h1 span {
+		font-size: 26px;
+    letter-spacing: 1px;
+    margin: 24px 125px;
+	}
+	.service {
+		width: 450px;
+	}
+	.service-leftside {
+		width: 450px;
+	}
+	.service-bottomside {
+		width: 450px;
+	}
+	.service img {
+		width: 450px;
+	}
+	.sidebar {
+		width: 250px;
+	}
+	.sidebar ul {
+		width: 250px;
+	}
+}
+
+/*----------------------------------------*/
+
+@media (max-width: 700px) {
+	.container {
+		width: 500px;
+	}
+	.header-menu .item {
+		width: 76px;
+		padding: 5px 0px;
+		border-radius: 15px;
+	}
+	.header-menu .item + .item {
+		margin-left: 1px;
+	}
+	.header-menu .item a {
+		width: 76px;
+		font-size: 10px;
+	}
+	h1 {
+		font-size: 16px;
+	    letter-spacing: 1px;
+	    margin: 70px 0px 0px;
+	}
+	h1 span {
+		font-size: 24px;
+    letter-spacing: 1px;
+    margin: 24px 86px;
+	}
+	.services {
+		margin-top: 100px;
+		width: 500px;
+	}
+	.service {
+		width: 365px;
+		margin-left: 0px;
+	}
+	.service-leftside {
+		width: 365px;
+		margin-left: 0px;
+	}
+	.service-bottomside {
+		width: 365px;
+		margin-left: 0px;
+	}
+	.service img {
+		width: 365px;
+		margin-left: 0px;
+	}
+	.service .button {
+		margin-right: 10px;
+	}
+	.sidebar {
+		width: 150px;
+		padding: 0px;
+		margin-right: -15px;
+	}
+	.sidebar .menu {
+		padding: 5px;
+		width: 150px;
+	}
+	.sidebar h2 {
+		margin-left: 35px;
+	}
+	.sidebar .item a span {
+		letter-spacing: normal;
+		text-transform: none;
+		word-wrap: break-word;
+		font-weight: normal;
+	}
+	.presentation .presentation-leftside {
+		margin-top: 50px;
+	}
+}
+
+/*----------------------------------------*/
+
+@media (max-width: 500px) {
+	.container {
+		width: auto;
+		margin: 0px 10px;
+	}
+	.header .item {
+		width: auto;
+	}
+	h1 {
+		font-size: 16px;
+		letter-spacing: normal;
+		margin: 30px auto;
+	}
+	h1 span {
+		font-size: 18px;
+	    letter-spacing: normal;
+	    margin: 14px auto;
+	}
+	.sidebar {
+		float: none;
+		margin: auto;
+	}
+	.services {
+		width: auto;
+	}
+	.service {
+		width: auto;
+	}
+	.service-leftside {
+		width: auto;
+	}
+	.service-bottomside {
+		width: auto;
+	}
+	.service img {
+		width: auto;
+	}
+	.service .button {
+		width: auto;
+		padding: 7px 7px;
+	}
+	.service .service-name {
+		width: auto;
+		margin-left: 5px;
+	}
+	.service span {
+		width: auto;
+		font-size: 16px;
+	}
+	.presentation {
+		width: auto;
+	}
+	.presentation-leftside {
+		width: auto;
+	}
+	.presentation-leftside h2 {
+		width: auto;
+	}
+		.presentation-leftside h2 span {
+			width: auto;
+		}
+	.presentation-leftside ul {
+		width: auto;
+	}
+	.presentation-leftside li {
+		width: auto;
+	}
+	.presentation-leftside li + li {
+		margin-top: 35px;
+	}
+	.whatsapp {
+		width: auto;
+	}
+		.whatsapp span {
+			width: auto;
+		}
+		.whatsapp .phone {
+			width: auto;
+		}
+		.whatsapp .phone .phone-number {
+			width: auto;
+		}
+		.whatsapp .light {
+			width: auto;
+		}
+}

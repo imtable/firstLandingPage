@@ -1,0 +1,294 @@
+@media (max-width: 1250px) {
+	.container {
+		width: 850px;
+	}
+	.header .menu {
+		margin: 45px auto;
+	}
+	.header .menu .item {
+		width: 123px;
+		padding: 10px 0px;
+	}
+	.header .menu .item + .item {
+		margin-left: 5px;
+	}
+	.header .menu .item a {
+		display: inline-block;
+		text-align: center;
+		width: 123px;
+	}
+	.header-h1 {
+		font-size: 20px;
+		letter-spacing: 1px;
+		margin: 136px 125px 0px;
+		text-align: center;
+	}
+	.header-h1 .header-span {
+		font-size: 26px;
+	    letter-spacing: 1px;
+	    margin: 24px 125px;
+	}
+	.service {
+		width: 550px;
+	}
+	.services-leftside {
+		width: 550px;
+	}
+	.service-bottomside {
+		width: 550px;
+	}
+	.service img {
+		width: 550px;
+	}
+	.sidebar {
+		width: 250px;
+	}
+	.sidebar .menu {
+		width: 230px;
+	}
+	.presentation {
+		width: 900px;
+	}
+}
+
+/*----------------------------------------*/
+
+@media (max-width: 900px) {
+	.container {
+		width: 700px;
+	}
+	.header .menu .item {
+		width: 110px;
+	}
+	.header .menu .item a {
+		width: 106px;
+		letter-spacing: 1px;
+	}
+	.header-h1 {
+		font-size: 16px;
+		letter-spacing: 1px;
+		margin: 70px 0px;
+	}
+	.header-h1 .header-span {
+		font-size: 24px;
+	    letter-spacing: 1px;
+	    margin: 24px 0;
+	}
+	.services {
+		margin-top: 50px;
+		width: 470px;
+	}
+	.service {
+		width: 470px;
+	}
+	.services-leftside {
+		width: 470px;
+	}
+	.service-bottomside {
+		width: 470px;
+	}
+	.service img {
+		width: 470px;
+	}
+	.sidebar {
+		width: 200px;
+	}
+	.sidebar .menu {
+		width: 180px;
+		padding: 0 5px;
+	}
+	.presentation {
+		width: 700px;
+	}
+}
+
+/*----------------------------------------*/
+
+@media (max-width: 700px) {
+	.container {
+		width: 500px;
+	}
+	.header .menu .item {
+		width: 82px;
+		padding: 5px 0px;
+		border-radius: 15px;
+	}
+	.header .menu .item + .item {
+		margin-left: 1px;
+	}
+	.header .menu .item a {
+		width: 82px;
+		font-size: 10px;
+	}
+	.header-h1 {
+		font-size: 14px;
+	    letter-spacing: 1px;
+	    margin: 50px 0px 0px;
+	}
+	.header-h1 .header-span {
+		font-size: 22px;
+	    letter-spacing: normal;
+	    margin: 20px 0px;
+	}
+	.services {
+		margin-top: 50px;
+		width: 350px;
+	}
+	.service {
+		width: 350px;
+		margin-left: 0px;
+	}
+	.services-leftside {
+		width: 350px;
+		margin-left: 0px;
+	}
+	.service-bottomside {
+		width: 350px;
+		margin-left: 0px;
+	}
+	.service img {
+		width: 350px;
+		margin-left: 0px;
+	}
+	.service-bottomside .service-name {
+		margin-left: 10px;
+	}
+	.service .button {
+		margin-right: 10px;
+	}
+	.sidebar {
+		width: 130px;
+		padding: 5px;
+	}
+	.sidebar .menu {
+		width: 120px;
+	}
+	.sidebar .item a span {
+		letter-spacing: normal;
+		text-transform: none;
+		word-wrap: break-word;
+		font-weight: normal;
+	}
+	.sidebar .item + .item {
+		marg
+	}
+	.presentation {
+		width: 500px;
+	}
+	.presentation .presentation-leftside {
+		margin-top: 50px;
+	}
+}
+
+/*----------------------------------------*/
+
+@media (max-width: 500px) {
+	.container {
+		width: auto;
+		margin: 0px 10px;
+	}
+	.header .menu {
+		width: 80px;
+		margin: 10px auto;
+	}
+	.header .menu .item {
+		float: none;
+		padding: 1px;
+	}
+	.header-h1 {
+		font-size: 14px;
+		letter-spacing: normal;
+		margin: 20px auto;
+	}
+	.header-h1 .header-span {
+		font-size: 18px;
+	    letter-spacing: normal;
+	    margin: 5px 0px;
+	}
+	.main {
+		margin-top: 20px;
+	}
+	.sidebar {
+		float: none;
+		margin: auto;
+	}
+	.sidebar .menu {
+		margin-top: 15px;
+	}
+	.sidebar .sidebar-h2 {
+		margin-top: 10px;
+	}
+	.sidebar .item {
+		margin-bottom: 10px;
+		padding-bottom: 10px;
+	}
+	.services {
+		width: auto;
+		margin-top: 20px;
+	}
+	.service + .service {
+		margin-top: 15px;
+	}
+	.service {
+		width: auto;
+	}
+	.services-leftside {
+		width: auto;
+		margin-top: 0px;
+	}
+	.service-bottomside {
+		width: auto;
+	}
+	.service img {
+		width: auto;
+	}
+	.service .button {
+		width: auto;
+		padding: 7px 7px;
+	}
+	.service .service-name {
+		width: auto;
+		margin-left: 5px;
+	}
+	.service span {
+		width: auto;
+		font-size: 16px;
+	}
+	.presentation {
+		width: auto;
+		margin-top: 20px;
+	}
+	.presentation-content .presentation-leftside {
+		width: auto;
+	}
+	.presentation-content .presentation-leftside h2 {
+		width: auto;
+	}
+		.presentation-content .presentation-leftside h2 span {
+			width: auto;
+		}
+	.presentation-content .presentation-leftside ul {
+		width: auto;
+	}
+	.presentation-content .presentation-leftside li {
+		width: auto;
+	}
+	.presentation-content .presentation-leftside li + li {
+		margin-top: 35px;
+	}
+	.presentation-content .whatsapp {
+		width: auto;
+	}
+		.whatsapp span {
+			width: auto;
+		}
+		.whatsapp .phone {
+			width: auto;
+		}
+		.whatsapp .phone .phone-number {
+			width: auto;
+		}
+		.whatsapp .light {
+			width: auto;
+		}
+}
