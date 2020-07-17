@@ -6,17 +6,12 @@
 		margin: 45px auto;
 	}
 	.header .menu .item {
-		width: 123px;
 		padding: 10px 0px;
 	}
 	.header .menu .item + .item {
 		margin-left: 5px;
 	}
-	.header .menu .item a {
-		display: inline-block;
-		text-align: center;
-		width: 123px;
-	}
+	.header .menu .item a {}
 	.header-h1 {
 		font-size: 20px;
 		letter-spacing: 1px;
@@ -53,9 +48,12 @@
 		width: 230px;
 		margin-top: 25px;
 	}
-	.sidebar .menu .item {
-		margin-bottom: 10px;
-		padding-bottom: 10px;
+	.sidebar .menu .item a {
+		padding: 17px 10px 17px;
+		line-height: 15px;
+	}
+	.sidebar .menu .item a span {
+		font-size: 12px;
 	}
 	.presentation {
 		width: 890px;
@@ -110,10 +108,8 @@
 		width: 700px;
 	}
 	.header .menu .item {
-		width: 110px;
 	}
 	.header .menu .item a {
-		width: 106px;
 		letter-spacing: 1px;
 	}
 	.header-h1 {
@@ -125,6 +121,9 @@
 		font-size: 24px;
 	    letter-spacing: 1px;
 	    margin: 24px 0;
+	}
+	.sidebar .menu .item a span {
+		font-size: 10px;
 	}
 	.services {
 		margin-top: 50px;
@@ -213,17 +212,11 @@
 	.container {
 		width: 500px;
 	}
-	.header .menu .item {
-		width: 82px;
-		padding: 5px 0px;
-		border-radius: 15px;
-	}
-	.header .menu .item + .item {
-		margin-left: 1px;
-	}
+	.header .menu .item {}
 	.header .menu .item a {
-		width: 82px;
 		font-size: 10px;
+		letter-spacing: 0.5px;
+		padding: 12px 15px;
 	}
 	.header-h1 {
 		font-size: 14px;
@@ -279,11 +272,12 @@
 		margin-top: 50px;
 	}
 	.sidebar .menu {
-		width: 480px;
+		width: 450px;
 		margin: auto;
 	}
 	.presentation {
 		width: 490px;
+		padding-bottom: 50px;
 	}
 	.presentation-content {
 		width: 480px;
@@ -314,7 +308,7 @@
 		margin-top: 0px;
 	}
 	.news .news-article-wrapper {
-		margin-top: 30px;
+		margin-top: 20px;
 	}
 		.news-h2 {
 			font-size: 18px;
@@ -353,15 +347,23 @@
 		.news-button-wrapper {
 			margin-top: 40px;
 		}
+		.news-button-wrapper .button {
+			font-size: 9px;
+		    letter-spacing: 1px;
+		    padding: 10px 40px;
+		}
 	.contacts {
 		margin-top: 60px;
 	}
 		.contacts .contacts-h2 {
 			font-size: 18px;
-			margin-bottom: 30px;
+			margin-bottom: 20px;
+		}
+		.contacts .contacts-container {
+			display: block;
 		}
 		.contacts .branches {
-			flex-basis: 200px;
+			padding: 0 20px;
 		}
 		.contacts .branch + .branch {
 			margin-top: 30px;
@@ -369,20 +371,43 @@
 		.contacts .branch {
 			padding-bottom: 50px;
 		}
+		.contacts .branch-loc {
+			display: inline-block;
+		}
 		.contacts .branch-loc .address {
-			width: 105px;
+			width: auto;
+			float: none;
+			display: inline-block;
+			text-align: left;
 		}
 		.contacts .branch-loc .address span {
 			font-size: 12px;
 		}
+		.contacts .branch-phone {
+			display: inline-block;
+			vertical-align: top;
+			margin-top: 0px;
+			margin-left: 15px;
+			float: right;
+		}
 		.contacts .branch-phone .phone-number {
-			width: 105px;
+			width: auto;
+			float: none;
+			display: inline-block;
+		}
+		.contacts-button-wrapper {
+			text-align: center;
 		}
 		.contacts .button.button-all {
-			margin-top: 50px;
+			margin-top: 15px;
+			margin-bottom: 15px;
 			font-size: 9px;
-		    letter-spacing: normal;
+		    letter-spacing: 1px;
 		    padding: 10px 40px;
+		}
+		.contacts .icon-phone-before:before, .contacts .icon-location-before:before {
+			float: left;
+			margin-right: 15px;
 		}
 
 /*----------------------------------------*/
@@ -400,15 +425,10 @@
     	margin: 10px auto;
 	}
 	.header .menu .item {
-		float: none;
-		padding: 1px;
 		width: auto;
-    	text-align: center;
+		display: block;
 	}
-	.header .menu .item a {
-    width: 105px;
-    font-size: 10px;
-	}
+	.header .menu .item a {}
 	.header-h1 {
 		font-size: 14px;
 		letter-spacing: normal;
@@ -601,51 +621,39 @@
 			margin-top: 25px;
 		}
 		.news .button.button-all {
-			padding: 10px 15px;
+			padding: 10px 20px;
+			font-size: 8px;
 		}
-	.contacts {
-
-	}
+	.contacts {}
 		.contacts .contacts-h2 {
 			font-size: 18px;
-			margin-bottom: 20px;
 		}
 		.contacts .map {
 			height: 500px;
 		}
 		.contacts .branches {
-			flex-basis: auto;
-			padding-left: 10px;
-			padding-right: 10px;
+			padding: 0 10px;
 		}
-		.contacts .branch + .branch {
-			margin-top: 30px;
-		}
-		.contacts .branch {
-			padding-bottom: 25px;
-		}
+		.contacts .branch + .branch {}
+		.contacts .branch {}
 		.contacts .branch-loc.icon-location-before:before {
 			transform: scale(0.7);
+			margin-right: 5px;
 		}
 		.contacts .branch-phone.icon-before.icon-phone-before:before {
 			transform: scale(0.7);
+			margin-right: 5px;
 		}
-		.contacts .branch-loc .address {
-			width: 44px;
-		}
+		.contacts .branch-loc .address {}
 		.contacts .branch-loc .address span {
 			font-size: 9px;
-			margin-bottom: 2px;
+			width: 170px;
 		}
-		.contacts .branch-phone {
-			margin-top: 15px;
-		}
+		.contacts .branch-phone {}
 		.contacts .branch-phone .phone-number {
-			width: 46px;
 			font-size: 9px;
 		}
 		.contacts .button.button-all {
-			margin-top: 30px;
+			padding: 10px 20px;
 			font-size: 8px;
-		    padding: 5px 7px;
 		}
