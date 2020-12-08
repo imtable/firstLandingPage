@@ -2,10 +2,10 @@
 
 so it's my first completed (HTML\CSS) landing page
 
-________desktop_version________
+__---------------------------------desktop version---------------------------------__
 
 ![background-picture](https://i.imgur.com/Fgv3REk.jpg)
 
-_________________________________________________________________mobile_version_________________________________________________________________
+__---------------------------------mobile version---------------------------------__
 
 ![background-picture](https://i.imgur.com/6yLp5Jv.jpg)
