@@ -2,7 +2,7 @@
 
 so it's my first completed (HTML\CSS) landing page
 
-_________________________________________________________________desktop_version_________________________________________________________________
+________desktop_version________
 
 ![background-picture](https://i.imgur.com/Fgv3REk.jpg)
 
